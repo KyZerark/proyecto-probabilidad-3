@@ -1,0 +1,98 @@
+*{
+	font-family: Segoe UI;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 18px;
+}
+
+body{
+	text-align: center;
+	background: #181818;
+}
+
+.group{
+	width: 960px;
+	border: solid black;
+	background: white;
+	margin: 15px auto;
+}
+
+
+.header {
+	color: white;
+	background: #9d0037;
+	border: solid black;
+	padding: 15px;
+}
+
+.header h1{
+	text-align: left;
+}
+
+.menu{
+	color: white;
+	background: #2B2B2B;
+	text-align: left;
+}
+
+.menu li{
+	list-style: none;
+	padding: 15px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.description{
+	text-align: left;
+	margin: 15px;
+}
+
+.formulapoisson{
+	width: 291px;
+	height: 44px;
+	margin: 15px auto;
+	display: block;
+}
+
+.ejercicio{
+	margin: 10px;
+	width: 600px;
+	color: white;
+	background: #181818;
+	padding: 20px;
+	border: 1px solid grey;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	text-align: left;
+	float: left;
+}
+
+.side{
+	width: 300px;
+	float: right;
+	margin: 20px 0;
+}
+
+.mathematical{
+	width: 250px;
+	height: 140px;
+	margin: 10px;
+	margin-top: 40px;
+	margin-right: 5px;
+	padding: 12px;
+}
+
+.foot{
+	clear: both;
+	padding: 10px;
+	color: white;
+	background: #9d0037;
+}

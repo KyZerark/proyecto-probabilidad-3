@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Distribución de Poisson</title>
+		<link rel="stylesheet" href="poisson.css">
+	</head>
+
+	<body>
+		<div class="group">
+			<nav class="menu">
+				<ul>
+					<li>
+						<a class="menu" href="proyecto-probabilidad-3-main/index.html">Menú principal</a>						
+					</li>
+					<li>
+						<a class="menu" href="distribucion-normal/dn.html">Normal</a>
+					</li>
+					<li>
+						<a class="menu" href="proyecto-probabilidad-3-main/index.html">Binomial</a>
+					</li>
+					<li>
+						<a class="menu" href="distribucion-binomialN/binomialn.html">Binomial negativa</a>
+					</li>
+					<li>
+						<a class="menu" href="distribucion-hipergeometrica/dh.html">Hipergeométrica</a>
+					</li>
+				</ul>
+			</nav>
+
+			<header class="header">
+				<h1>Distribución de Poisson</h1>
+			</header>
+
+
+
+			<div class="description">
+				<h2>Distribución de Poisson</h2>
+				<p>La distribución de probabilidad de la variable aleatoria de Poisson X, la cual representa el número de 
+				resultados que ocurren en un intervalo de tiempo dado o región específicos y se denota con t, es</p>
+				<img class="formulapoisson" src="img/dpoisson.png"/>
+				<p>donde λ es el número promedio de resultados por unidad de tiempo, distancia, área o volumen y e = 2.71828…</p>
+			</div>
+
+			<section>
+				<hgroup class="ejercicio">
+						<h1>Problema de stock</h1>
+						<p>Un estudio de un inventario determina que, en promedio, el número de veces al día que se solicita 
+						un artículo específico en un almacén es <input type="text" id="lamb" placeholder="λt">. ¿Cuál es la 
+						probabilidad de que en un día determinado este artículo se pida...<br>
+						a) más de <input type="text" id="nvecesA" placeholder="X"> veces? <input type="button" onclick="poissonA();" value=" Calcular "><br>
+						P(X > x) = <output id="resultA"></output><br>
+   						b) <input type="text" id="nvecesB" placeholder="X"> veces? <input type="button" onclick="poissonB();" value=" Calcular "><br>
+   						P(X = x) = <output id="resultB"></output><br>
+						</p>
+				</hgroup>
+				<img class="mathematical side" src="img/adventuretime.gif"/>
+			</section>
+
+			<footer class="foot">
+				Instituto Politécnico Nacional || Escuela Superior de Cómputo | ESCOM
+			</footer>
+		</div>
+		<script src="poisson.js"> </script>
+	</body>
+</html>
